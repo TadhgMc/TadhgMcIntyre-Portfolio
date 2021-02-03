@@ -1,0 +1,82 @@
+
+/* make title and nav bar separate to title over nav, when screen is smaller.
+contact info fixed to bottom right of view port
+about me line wider
+make font larger
+*/
+
+:root {
+    --primary: #3e394b;
+    --secondary: #d6e5e9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body{
+    background-color:var(--primary);
+    color: var(--secondary);
+}
+
+/*header*/
+header {
+    background: rgb(180, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1{
+    text-decoration: underline var(--primary);
+}
+
+nav ol {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ol li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--secondary);
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+/*work*/
+#work {
+
+}
+
+h2{ 
+    font-size: 32px;
+}
+
+/*about me*/
+#aboutme {
+    border-top: solid;
+    width: 35%
+}
+/*contact info*/
+#contact {
+    float: right;
+    background-color: rgb(180, 22, 22);
+    height: 50%;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+    color: var(--primary)
+}
+
+aside li {
+    list-style: none;
+}
