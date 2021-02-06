@@ -129,7 +129,7 @@ nav a:hover {
     margin-top: 20px;
     border-top: solid;
     width: 70%;
-    float:left;
+    float: left;
 }
 
 .aboutme h2 {
@@ -140,6 +140,13 @@ nav a:hover {
 .aboutme p {
     font-size: 26px;
     margin: 20px;
+}
+
+.aboutme img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
 }
 
 /*contact info*/
