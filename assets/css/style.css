@@ -1,13 +1,9 @@
 
-/* make title and nav bar separate to title over nav, when screen is smaller.
-contact info fixed to bottom right of view port
-about me line wider
-make font larger
-*/
-
 :root {
     --primary: #3e394b;
     --secondary: #d6e5e9;
+    --backcolor: rgb(180, 22, 22);
+    --shadow: #00000059;
 }
 
 * {
@@ -22,29 +18,30 @@ body{
 
 /*header*/
 header {
-    background: rgb(180, 22, 22);
+    background: var(--backcolor);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 h1{
-    text-decoration: underline var(--primary) 4px;
-    
+    text-decoration: underline var(--primary) 8px;
+    font-size: 80px;
 }
 
-/* add to cards, mobile-flex: 0 0 100% , then, middle-size flex: 0 0 (50-75)% , then, desktop-size flex 0 0 ~25% ,*/
+nav {
+    align-self: flex-end;
+}
 
-/*stack break for nav at 982px */
 nav ol {
     list-style: none;
     display: inline-flex;
 }
 
 nav ol li a {
-    text-decoration: underline var(--primary) 4px;
-    font-size: 25px;
+    text-decoration: underline var(--primary) 6px;
+    font-size: 40px;
     color: var(--secondary);
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -53,7 +50,7 @@ nav a:hover {
 
 /*hero section*/
 .hero {
-    height: 15%;
+    height: 13%;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/hero.jpg");
@@ -61,17 +58,20 @@ nav a:hover {
     background-position: center;
 }
 
+/* commands for main element*/
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/*work*/
+/*work element*/
 .work {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-self: flex-start;
     width: 80%;
     height: 60%;
 }
@@ -84,16 +84,26 @@ nav a:hover {
 }
 
 .work-card {
-    flex: 0 1 80%;
     position: relative;
+    flex: 0 1 350px;
+    width: 350px;
+    height: 350px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 
+        28px 28px 60px var(--shadow),
+        -23px -23px 45px var(--primary);
 }
 
 .work-card img {
-    
+  width: 350px; 
+  height: 350px;
+  border-radius: 20px;
+  padding: 0px;
 }
 
 .work-card h4{
-    background:rgb(180, 22, 22);
+    background:var(--backcolor);
     margin-bottom: -35px;
     margin-left: 10px;
     font-size: 26px;
@@ -101,8 +111,17 @@ nav a:hover {
     right: 5%;
 }
 
-.work-card:hover {
+.work-card h4 a {
+    text-decoration: none;
+    color: var(--secondary)
+}
 
+/* .work-card:hover {
+    color: var(--primary);
+} */
+
+.work-card img:hover {
+    opacity: 75%;
 }
 
 /*about me*/
@@ -122,13 +141,15 @@ nav a:hover {
     font-size: 26px;
     margin: 20px;
 }
+
 /*contact info*/
 .contact {
     align-self: flex-end;
-    background-color: rgb(180, 22, 22);
+    background-color: var(--backcolor);
     height: 40%;
     width: 25%;
     border-radius: 10px;
+    box-shadow: 10px 10px 45px var(--shadow);
 }
 
 h3 {
@@ -142,22 +163,19 @@ aside li {
     list-style: none;
 }
 
-/* add to cards, -start at- flex: 0 0 100% , 
-then, middle-size (min-width:768px) flex: 0 0 (50-75)% , 
-then, desktop-size (min-width: 992px) flex 0 0 ~25% ,*/
-
+/* adjustments for screen change*/
 @media screen and (min-width: 768px) {
-    .work-card {
-        flex: 0 0 50%;
+    main,
+    header {
+        flex-direction: row;
     }
-    .work {
-        flex-direction:row;
-        flex-wrap: wrap;
+    nav {
+        margin-top: -40px
     }
 }
 
 @media screen and ( min-width: 992px) {
-    .work-card{
-
+    header {
+        justify-content: space-between;
     }
 }
