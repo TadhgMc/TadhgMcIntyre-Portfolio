@@ -10,20 +10,20 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-danger">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-dark" href="#">Tadhg McIntyre's Portfolio</a>
+                  <h1 class="navbar-brand fs-4 text-dark" href="#">Tadhg McIntyre's Portfolio</h1>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active text-dark" aria-current="page" href="#work">Completed Work</a>
+                        <a class="nav-link fs-5 active text-dark" aria-current="page" href="#work">Completed Work</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-dark" href="#aboutme">About Me</a>
+                        <a class="nav-link fs-5 text-dark" href="#aboutme">About Me</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-dark" href="#contact">Contact Info</a>
+                        <a class="nav-link fs-5 text-dark" href="#contact">Contact Info</a>
                       </li>
                     </ul>
                   </div>
@@ -31,27 +31,27 @@
               </nav>
         </header>
         <section class= "hero"></section>
-        <main class="info container-fluid row row-cols-2">
-            <section id="work" class="col-5 m-4">
+        <main class="info container-fluid row">
+            <section id="work" class="col-lg-6 col-md-10  m-4">
               <div class="row justify-content-end align-items-center">
-                <header class="text-danger col-3">
-                  <h1>Completed Work:</h1><hr>
+                <header class="text-danger col-lg-3 col-sm-10">
+                  <h1 class="fs-2">Completed Work:</h1><hr>
                 </header>
-                <div class="card col-3 m-1 bg-danger text-dark w-50">
+                <div class="card col-lg-2 col-sm-10 m-1 bg-danger text-dark fs-5 w-25">
                   <img src="assets/images/planScreenShot.png" class="card-img-top" alt="Work Day Scheduler">
                   <div class="card-body">
                     <p class="card-title">Work Day Scheduler</p>
                     <a href="https://github.com/TadhgMc/work-day-scheduler" target="_blank" class="btn btn-dark">See On GitHub</a>
                   </div>
                 </div>
-                <div class="card col-3 m-1 bg-danger text-dark w-50">
+                <div class="card col-lg-2 col-sm-10 m-1 bg-danger text-dark fs-5 w-25">
                     <img src="assets/images/pWscreenshot.png" class="card-img-top" alt="Password Generator">
                     <div class="card-body">
                       <p class="card-title">Password Generator</p>
                       <a href="https://github.com/TadhgMc/PassWord_Gene" target="_blank" class="btn btn-dark">See On GitHub</a>
                     </div>
                 </div>
-                <div class="card col-3 m-1 bg-danger text-dark w-50">
+                <div class="card col-lg-2 col-sm-10 m-1 bg-danger text-dark fs-5 w-25">
                     <img src="assets/images/trippin.PNG" class="card-img-top" alt="Trippin' Around Columbus">
                     <div class="card-body">
                       <p class="card-title">Activity Planner</p>
@@ -61,7 +61,7 @@
               </div>
             </section>
 
-            <article class="col-5">
+            <article class="col-lg-5 col-md-10">
 
                 <div class="row g-0 m-4 bg-danger rounded" id="aboutme">
                   <div class="col-md-4">
@@ -69,21 +69,27 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">About Me</h5>
-                      <p class="card-text">Aloha! My name is Tadhg McIntyre, I'm a new deveolper looking to make my place in the ever expanding world of web development!</p>
+                      <h5 class="card-title fs-3">About Me</h5>
+                      <p class="card-text fs-4">Aloha! My name is Tadhg McIntyre, I'm a new deveolper 
+                        looking to make my place in the ever expanding world of Web Development. 
+                        I've had a few different jobs in the past, and am now looking to begin a career in Full-Stack Development!
+                      </p>
                     </div>
                   </div>
                 </div>
               
               <div id="contact " class="text-danger">
                 <div>
-                  <h5>Contact Info</h5>
-                  <ul class="list-group list-group-flush">
+                  <h5 class="fs-3">Contact Info</h5>
+                  <ul class="list-group fs-4 list-group-flush">
                     <li class="list-group-item bg-dark">
                         Email: <br>mcintyretadhg@gmail.com
                     </li>
                     <li class="list-group-item bg-dark">
-                        GitHub: <br>TadhgMc
+                        GitHub: <br><a href="https://github.com/TadhgMc">TadhgMc</a>
+                    </li>
+                    <li class="list-group-item bg-dark">
+                      LinkedIn: <br> Tadhg McIntyre
                     </li>
                   </ul>
                 </div>
