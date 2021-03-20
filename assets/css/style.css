@@ -1,1 +1,12 @@
-/* personal style sheet*/
+.txt-darkish {
+    color: #0075F2;
+}
+.txt-redish{
+    color: #C4D4D4;
+}
+.bg-darkish {
+    background-color: #2F372F;
+}
+.bg-redish {
+    background-color: #671420 ;
+}
