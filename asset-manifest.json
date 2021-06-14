@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/TadhgMcIntyre-Portfolio/static/css/main.7281c6f3.chunk.css",
+    "main.js": "/TadhgMcIntyre-Portfolio/static/js/main.3b2b6dca.chunk.js",
+    "main.js.map": "/TadhgMcIntyre-Portfolio/static/js/main.3b2b6dca.chunk.js.map",
+    "runtime-main.js": "/TadhgMcIntyre-Portfolio/static/js/runtime-main.d0749ba5.js",
+    "runtime-main.js.map": "/TadhgMcIntyre-Portfolio/static/js/runtime-main.d0749ba5.js.map",
+    "static/js/2.f14005c2.chunk.js": "/TadhgMcIntyre-Portfolio/static/js/2.f14005c2.chunk.js",
+    "static/js/2.f14005c2.chunk.js.map": "/TadhgMcIntyre-Portfolio/static/js/2.f14005c2.chunk.js.map",
+    "index.html": "/TadhgMcIntyre-Portfolio/index.html",
+    "static/css/main.7281c6f3.chunk.css.map": "/TadhgMcIntyre-Portfolio/static/css/main.7281c6f3.chunk.css.map",
+    "static/js/2.f14005c2.chunk.js.LICENSE.txt": "/TadhgMcIntyre-Portfolio/static/js/2.f14005c2.chunk.js.LICENSE.txt",
+    "static/media/EmpTra.853d5a1a.PNG": "/TadhgMcIntyre-Portfolio/static/media/EmpTra.853d5a1a.PNG",
+    "static/media/PW-Gene.f3ece4e6.PNG": "/TadhgMcIntyre-Portfolio/static/media/PW-Gene.f3ece4e6.PNG",
+    "static/media/TPG.0ccd0236.PNG": "/TadhgMcIntyre-Portfolio/static/media/TPG.0ccd0236.PNG",
+    "static/media/Tadhg McIntyre Resume.4eeaf564.pdf": "/TadhgMcIntyre-Portfolio/static/media/Tadhg McIntyre Resume.4eeaf564.pdf",
+    "static/media/TheField.1f38723d.PNG": "/TadhgMcIntyre-Portfolio/static/media/TheField.1f38723d.PNG",
+    "static/media/day-planner.a0c1f9c1.PNG": "/TadhgMcIntyre-Portfolio/static/media/day-planner.a0c1f9c1.PNG",
+    "static/media/port_pic2.a1a69de1.jpg": "/TadhgMcIntyre-Portfolio/static/media/port_pic2.a1a69de1.jpg",
+    "static/media/trippin.9a7cc9ad.PNG": "/TadhgMcIntyre-Portfolio/static/media/trippin.9a7cc9ad.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0749ba5.js",
+    "static/js/2.f14005c2.chunk.js",
+    "static/css/main.7281c6f3.chunk.css",
+    "static/js/main.3b2b6dca.chunk.js"
+  ]
+}
